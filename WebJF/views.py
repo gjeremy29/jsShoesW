@@ -22,6 +22,3 @@ def brsport(request):
 
     return render(request, "WebJF/brsport.html")
 
-def contacto(request):
-
-    return render(request, "WebJF/contacto.html")
