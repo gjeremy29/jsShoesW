@@ -1585,3 +1585,11 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+.contenedorformulario{
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 100px 100px;
+}
