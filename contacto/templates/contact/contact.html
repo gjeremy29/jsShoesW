@@ -9,23 +9,20 @@
      <!-- ======= Hero Section ======= -->
   
 
-
-  <div class="contenedorformulario" style="display: flex; justify-content: center;">
-    
-
-    <form action="" method="POST" style="text-align: left;">
-      <table style="margin: 20px auto;"> 
-        
+     <div class="contenedorformulario d-flex justify-content-center">
+      <form action="" method="POST" class="text-left">
         {% csrf_token %}
-        {{ form }}
-      </table>
-      <div style="text-align: center;">
-        <input type="submit" value="Enviar" style="width: 120px;">
-      </div>
-    
+        <table class="mx-auto my-4">
+          {{ form }}
+        </table>
+        <div class="text-center">
+          <input type="submit" value="Enviar" class="btn btn-primary" style="width: 120px;">
+        </div>
       </form>
-      
-  </div>
+    </div>
+    
+
+
   {% if "valido" in request.GET %}
   <div id="success-alert" class="alert alert-success" role="alert" style="width: 400px; justify-content: center;">
     Tu información ha sido enviada con éxito.

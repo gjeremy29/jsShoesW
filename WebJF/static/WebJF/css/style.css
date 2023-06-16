@@ -36,6 +36,8 @@ h6 {
 
 
 
+
+
 /*-----------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1558,7 +1560,7 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 24px;
   display: inline-block;
   background: #ef6603;
   color: #fff;
@@ -1593,6 +1595,5 @@ section {
   border-radius: 5px;
   padding: 100px 100px;
 }
-
 
 
